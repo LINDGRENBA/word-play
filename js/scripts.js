@@ -12,6 +12,7 @@ $(document).ready(function() {
     //loop through array and get any word with 3+ characters
     words.forEach(function(word) {
       if(word.length >= 3) {
+        //create a new array with these words
         newArray.push(word);
       };
     });
